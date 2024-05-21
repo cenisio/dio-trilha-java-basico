@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import exceptions.ParametrosInvalidosException;
@@ -5,19 +6,23 @@ import exceptions.ParametrosInvalidosException;
 public class Contador {
 
     public static void main(String[] args) {
-        Scanner terminal = new Scanner(System.in);
-        System.out.println("Digite o primeiro parâmetro: ");
-        int param1= terminal.nextInt();
-        System.out.println("Digite o segundo parâmetro: ");
-        int param2= terminal.nextInt();
-        
-        try {
-            contar(param1, param2);
-            
-        } catch (ParametrosInvalidosException e) {
-            System.out.println(e.getMessage());
+        try{
+            Scanner terminal = new Scanner(System.in);
+            System.out.println("Digite o primeiro parâmetro: ");
+            int param1= terminal.nextInt();
+            System.out.println("Digite o segundo parâmetro: ");
+            int param2= terminal.nextInt();
+
+            try {
+                contar(param1, param2);
+                
+            } catch (ParametrosInvalidosException e) {
+                System.out.println(e.getMessage());
+            }
+        } catch (InputMismatchException e){
+            System.out.println("Os parâmetros de entrada precisam ser numéricos inteiros.");
         }
-    }
+}
 
     static void contar(int param1, int param2) throws ParametrosInvalidosException {
 		//validar se parametroUm é MAIOR que parametroDois e lançar a exceção
