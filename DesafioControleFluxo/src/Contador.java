@@ -13,12 +13,10 @@ public class Contador {
             System.out.println("Digite o segundo parâmetro: ");
             int param2= terminal.nextInt();
 
-            try {
-                contar(param1, param2);
-                
-            } catch (ParametrosInvalidosException e) {
-                System.out.println(e.getMessage());
-            }
+            contar(param1, param2);
+            
+        } catch (ParametrosInvalidosException e) {
+            System.out.println(e.getMessage());
         } catch (InputMismatchException e){
             System.out.println("Os parâmetros de entrada precisam ser numéricos inteiros.");
         }
