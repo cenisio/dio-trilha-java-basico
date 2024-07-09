@@ -33,3 +33,5 @@ classDiagram
     ReprodutorMusical --> Funcionalidade
     AparelhoTelefonico --> Funcionalidade
     NavegadorInternet --> Funcionalidade
+    Funcionalidade --> iPhone
+    
