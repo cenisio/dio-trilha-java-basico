@@ -1,4 +1,5 @@
 ### Diagrama UML iPhone (Mermaid)
+
 ```mermaid
 classDiagram
     class ReprodutorMusical {
@@ -39,6 +40,7 @@ classDiagram
     Funcionalidade --> iPhone
 ```
 
+
 ### Explicação do Diagrama
 
 - **iPhone** é a classe principal que representa o dispositivo iPhone. Ele possui atributos como: modelo, sistema operacional e armazenamento. E métodos básicos para ligar e desligar o dispositivo.
@@ -46,6 +48,7 @@ classDiagram
 - **ReprodutorMusical**: Classe que herda de Funcionalidade, responsável por tocar, pausar e selecionar músicas.
 - **AparelhoTelefonico**: Classe que herda de Funcionalidade, responsável por ligar, atender, desligar chamadas e iniciar correio de voz. 
 - **NavegadorInternet**: Classe que herda de Funcionalidade, responsável por exibir página, adicionar nova aba e atualizar páginas da web.
+
 
 ### Código Java para as Classes
 
