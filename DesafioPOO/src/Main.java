@@ -7,7 +7,7 @@ import com.dio.desafio.poo.Mentoria;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        
+
         Curso curso1 = new Curso();
         curso1.setTitulo("Curso Java");
         curso1.setDescricao("Descrição Curso Java");
