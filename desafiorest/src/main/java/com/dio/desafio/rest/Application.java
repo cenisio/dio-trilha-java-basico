@@ -1,4 +1,4 @@
-package me.dio.desafio_api_rest;
+package com.dio.desafio.rest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
