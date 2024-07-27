@@ -8,10 +8,6 @@ Desafio RESTful API da Santander construída em Java 17 com Spring Boot 3.
  - **OpenAPI (Swagger)**: Documentação de API eficaz e fácil de entender usando a OpenAPI (Swagger), perfeitamente alinhada com a alta produtividade que o Spring Boot oferece;
  - **Railway**: facilita o deploy e monitoramento de soluções na nuvem, além de oferecer diversos bancos de dados como serviço e pipelines de CI/CD.
 
-## [Link do Figma](https://www.figma.com/file/0ZsjwjsYlYd3timxqMWlbj/SANTANDER---Projeto-Web%2FMobile?type=design&node-id=1421%3A432&mode=design&t=6dPQuerScEQH0zAn-1)
-
-O Figma foi utilizado para a abstração do domínio desta API, sendo útil na análise e projeto da solução.
-
 ## Diagrama de Classes (Domínio da API)
 
 ```mermaid
