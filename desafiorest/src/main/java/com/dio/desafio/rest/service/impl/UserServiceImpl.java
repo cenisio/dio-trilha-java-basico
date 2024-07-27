@@ -1,12 +1,12 @@
-package me.dio.desafio_api_rest.service.impl;
+package com.dio.desafio.rest.service.impl;
 
 import java.util.NoSuchElementException;
 
 import org.springframework.stereotype.Service;
 
-import me.dio.desafio_api_rest.domain.model.User;
-import me.dio.desafio_api_rest.domain.repository.UserRepository;
-import me.dio.desafio_api_rest.service.UserService;
+import com.dio.desafio.rest.domain.model.User;
+import com.dio.desafio.rest.domain.repository.UserRepository;
+import com.dio.desafio.rest.service.UserService;
 
 @Service
 public class UserServiceImpl implements UserService{

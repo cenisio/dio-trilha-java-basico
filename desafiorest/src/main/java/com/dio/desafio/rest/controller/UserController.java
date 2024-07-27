@@ -1,4 +1,4 @@
-package com.dio.desafio.rest;
+package com.dio.desafio.rest.controller;
 
 import java.net.URI;
 

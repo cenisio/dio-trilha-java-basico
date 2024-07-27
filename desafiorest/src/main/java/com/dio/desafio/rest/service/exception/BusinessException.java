@@ -1,4 +1,4 @@
-package me.dio.desafio_api_rest.service.exception;
+package com.dio.desafio.rest.service.exception;
 
 public class BusinessException extends RuntimeException {
 

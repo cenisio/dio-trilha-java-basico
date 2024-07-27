@@ -1,6 +1,6 @@
-package me.dio.desafio_api_rest.service;
+package com.dio.desafio.rest.service;
 
-import me.dio.desafio_api_rest.domain.model.User;
+import com.dio.desafio.rest.domain.model.User;
 
 public interface UserService {
 
